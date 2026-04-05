@@ -37,6 +37,42 @@ Senior Backend Engineer with 8+ years of experience building scalable systems, d
 
 ---
 
+## 🧩 System Design Experience
+
+### 🔹 GraphQL Data Aggregation Platform
+
+Designed a backend service that aggregates data from multiple heterogeneous data sources (Neo4j, PostgreSQL, Oracle, Cassandra) into a unified GraphQL API.
+
+**Key Highlights:**
+- Built a unified abstraction layer for querying multiple databases  
+- Reduced client-side complexity by centralizing data fetching  
+- Implemented efficient query resolution strategies to avoid redundant calls  
+- Handled large-scale data aggregation with optimized query execution  
+
+**Architecture Concepts:**
+- GraphQL resolvers with batching strategy  
+- Multi-database integration layer  
+- Microservices-based backend design  
+
+---
+
+### 🔹 Identity & Access Governance System
+
+Worked on backend systems for managing identity access, approvals, and governance workflows.
+
+**Key Highlights:**
+- Designed REST APIs and workflow-driven systems for access approvals  
+- Implemented scheduler-based processing using Quartz  
+- Built event-driven communication using ActiveMQ  
+- Integrated IAM systems with governance workflows  
+
+**Architecture Concepts:**
+- Microservices + Scheduler architecture  
+- Event-driven systems  
+- Workflow orchestration
+
+---
+
 ## 🧠 Engineering Strength
 
 - Distributed Systems  
