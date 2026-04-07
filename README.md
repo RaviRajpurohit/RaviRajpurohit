@@ -7,6 +7,7 @@ Senior Backend Engineer with 8+ years of experience building scalable systems, d
 🌱 Exploring Offline AI Systems  
 
 ![Profile Views](https://komarev.com/ghpvc/?username=RaviRajpurohit&color=blue)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RaviRajpurohit&show_icons=true)
 
 ---
 
@@ -45,10 +46,9 @@ I focus on designing systems that are:
 ## 💼 Experience
 
 ### 🏢 Morgan Stanley (Mar 2023 – Present)
-- Working on graph-based platform for application & security analysis  
-- Integrating Stardog, Snowflake, PostgreSQL  
-- Building scalable data aggregation and analysis systems  
-- Improving performance of data access layers  
+- Contributing to a graph-based platform for analyzing application dependencies and security patterns at scale  
+- Designing backend services integrating multiple data sources (Stardog, Snowflake, PostgreSQL)  
+- Building data aggregation pipelines for complex relationship analysis  
 
 ### 🏢 Publicis Sapient (Sep 2021 – Mar 2023)
 - Built fintech systems for fund & investment management  
@@ -61,6 +61,23 @@ I focus on designing systems that are:
 - Designed microservices and workflow-driven systems  
 
 ---
+## Architecture Dsign 
+```
+Client
+  ↓
+GraphQL API
+  ↓
+Resolver Layer
+  ↓
+-------------------------------
+| Neo4j | PostgreSQL | Oracle |
+-------------------------------
+  ↓
+Aggregation Layer
+  ↓
+Unified Response
+```
+---
 
 ## 🧩 System Design Experience
 
@@ -71,7 +88,7 @@ Designed a backend service that aggregates data from multiple heterogeneous data
 **Key Highlights:**
 - Unified abstraction layer for multi-database querying  
 - Reduced client-side complexity  
-- Optimized query execution and resolver performance  
+- Designed resolver strategies to minimize N+1 query problems and improve performance  
 
 ---
 
@@ -145,3 +162,8 @@ Worked on backend systems for managing identity access, approvals, and governanc
 - Email: ravirajpurohit29@gmail.com  
 
 ---
+## 🎯 What I'm Looking For
+
+- Backend / Platform Engineering roles  
+- Systems involving data, graphs, and distributed architectures  
+- Opportunities to build scalable and impactful systems  
