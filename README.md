@@ -5,7 +5,9 @@ Senior Backend Engineer with 8+ years of experience building scalable systems, d
 🔧 Java | Spring Boot | GraphQL | Neo4j  
 🏢 Morgan Stanley  
 🌱 Exploring Offline AI Systems  
+
 ![Profile Views](https://komarev.com/ghpvc/?username=RaviRajpurohit&color=blue)
+
 ---
 
 ## 🚀 What I Do
@@ -18,19 +20,42 @@ Senior Backend Engineer with 8+ years of experience building scalable systems, d
 
 ---
 
+## 🧠 How I Think About Systems
+
+I focus on designing systems that are:
+
+- **Scalable** → Handle increasing data and traffic efficiently  
+- **Composable** → Modular services that evolve independently  
+- **Data-centric** → Choosing the right storage (Graph vs Relational vs NoSQL)  
+- **Efficient** → Minimizing redundant calls and optimizing query paths  
+
+> "The right data model reduces system complexity more than any optimization."
+
+---
+
+## ⚙️ Design Principles I Follow
+
+- Prefer **data aggregation layers** over scattered client calls  
+- Use **GraphQL** to reduce over-fetching and under-fetching  
+- Apply **event-driven architecture** for decoupled systems  
+- Optimize systems at **data access level, not just code level**  
+
+---
+
 ## 💼 Experience
 
-### Morgan Stanley (2023 – Present)
+### 🏢 Morgan Stanley (Mar 2023 – Present)
 - Working on graph-based platform for application & security analysis  
 - Integrating Stardog, Snowflake, PostgreSQL  
 - Building scalable data aggregation and analysis systems  
+- Improving performance of data access layers  
 
-### Publicis Sapient (2021 – 2023)
+### 🏢 Publicis Sapient (Sep 2021 – Mar 2023)
 - Built fintech systems for fund & investment management  
 - Worked as contractor supporting Wellington  
 - Developed backend services using Java, Python, AWS  
 
-### Confluxsys (2017 – 2021)
+### 🏢 Confluxsys (Jun 2017 – Sep 2021)
 - Led backend for Identity & Access Management systems  
 - Built GraphQL aggregation services across multiple databases  
 - Designed microservices and workflow-driven systems  
@@ -44,15 +69,9 @@ Senior Backend Engineer with 8+ years of experience building scalable systems, d
 Designed a backend service that aggregates data from multiple heterogeneous data sources (Neo4j, PostgreSQL, Oracle, Cassandra) into a unified GraphQL API.
 
 **Key Highlights:**
-- Built a unified abstraction layer for querying multiple databases  
-- Reduced client-side complexity by centralizing data fetching  
-- Implemented efficient query resolution strategies to avoid redundant calls  
-- Handled large-scale data aggregation with optimized query execution  
-
-**Architecture Concepts:**
-- GraphQL resolvers with batching strategy  
-- Multi-database integration layer  
-- Microservices-based backend design  
+- Unified abstraction layer for multi-database querying  
+- Reduced client-side complexity  
+- Optimized query execution and resolver performance  
 
 ---
 
@@ -61,24 +80,28 @@ Designed a backend service that aggregates data from multiple heterogeneous data
 Worked on backend systems for managing identity access, approvals, and governance workflows.
 
 **Key Highlights:**
-- Designed REST APIs and workflow-driven systems for access approvals  
-- Implemented scheduler-based processing using Quartz  
-- Built event-driven communication using ActiveMQ  
-- Integrated IAM systems with governance workflows  
-
-**Architecture Concepts:**
-- Microservices + Scheduler architecture  
-- Event-driven systems  
-- Workflow orchestration
+- Built REST APIs and workflow-driven systems  
+- Implemented scheduler-based processing (Quartz)  
+- Designed event-driven communication using ActiveMQ  
 
 ---
 
-## 🧠 Engineering Strength
+## 🔬 Deep Dive: Multi-Database Aggregation
 
-- Distributed Systems  
-- Graph-Based Architecture  
-- Data Aggregation Platforms  
-- Backend Performance Optimization  
+### Problem:
+- Data distributed across Graph + Relational DBs  
+- Multiple API calls required  
+- Increased latency and complexity  
+
+### Solution:
+- Introduced GraphQL-based aggregation layer  
+- Centralized data fetching logic  
+- Optimized resolver execution  
+
+### Result:
+- Simplified client interaction  
+- Reduced redundant calls  
+- Improved maintainability  
 
 ---
 
@@ -100,7 +123,7 @@ Worked on backend systems for managing identity access, approvals, and governanc
 
 ### 🔹 Mini Sidenav (Angular)
 - UI component with 50+ stars  
-- Based on Angular Material design  
+- Based on Angular Material  
 
 ### 🔹 CAZRI Inventory System
 - Built during ISRO collaboration  
