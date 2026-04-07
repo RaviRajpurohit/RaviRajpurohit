@@ -1,124 +1,134 @@
 # Hi, I'm Ravi Rajpurohit 👋
 
-Senior Backend Engineer with 8+ years of experience building scalable systems, data platforms, and graph-based architectures.
+Senior Backend Engineer with 8+ years of experience designing and building scalable data platforms, graph-based systems, and distributed backend architectures.
 
 🔧 Java | Spring Boot | GraphQL | Neo4j  
 🏢 Morgan Stanley  
 🌱 Exploring Offline AI Systems  
 
-![Profile Views](https://komarev.com/ghpvc/?username=RaviRajpurohit&color=blue)
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RaviRajpurohit&show_icons=true)
-
 ---
 
 ## 🚀 What I Do
 
-- Design scalable backend systems using Java & Spring Boot  
-- Build GraphQL-based data aggregation platforms across multiple data sources  
-- Work with graph databases (Neo4j) for complex relationship modeling  
-- Develop microservices and event-driven systems  
-- Optimize backend performance and large-scale data processing  
+- Design and build **scalable backend systems** for data-intensive applications  
+- Develop **GraphQL-based aggregation layers** to unify multiple heterogeneous data sources  
+- Model complex relationships using **graph databases (Neo4j)**  
+- Architect **microservices and event-driven systems** for decoupled and maintainable platforms  
+- Optimize **data access patterns and query execution** for large-scale systems  
 
 ---
 
 ## 🧠 How I Think About Systems
 
-I focus on designing systems that are:
+I approach system design with a strong focus on:
 
-- **Scalable** → Handle increasing data and traffic efficiently  
-- **Composable** → Modular services that evolve independently  
-- **Data-centric** → Choosing the right storage (Graph vs Relational vs NoSQL)  
-- **Efficient** → Minimizing redundant calls and optimizing query paths  
+- **Scalability** → Systems that handle growing data and traffic without degradation  
+- **Composability** → Modular services that evolve independently  
+- **Data Modeling** → Choosing the right paradigm (Graph vs Relational vs NoSQL)  
+- **Efficiency** → Reducing redundant calls and optimizing query paths  
 
-> "The right data model reduces system complexity more than any optimization."
+> "A well-designed data model eliminates more complexity than any optimization layer."
 
 ---
 
 ## ⚙️ Design Principles I Follow
 
-- Prefer **data aggregation layers** over scattered client calls  
-- Use **GraphQL** to reduce over-fetching and under-fetching  
-- Apply **event-driven architecture** for decoupled systems  
-- Optimize systems at **data access level, not just code level**  
+- Build **data aggregation layers** to simplify client interactions  
+- Use **GraphQL** to eliminate over-fetching and reduce API fragmentation  
+- Prefer **event-driven architecture** for decoupled system communication  
+- Focus on **data access optimization** (query design, batching, indexing)  
+- Solve performance problems at **system design level, not just code level**  
 
 ---
 
 ## 💼 Experience
 
 ### 🏢 Morgan Stanley (Mar 2023 – Present)
-- Contributing to a graph-based platform for analyzing application dependencies and security patterns at scale  
-- Designing backend services integrating multiple data sources (Stardog, Snowflake, PostgreSQL)  
-- Building data aggregation pipelines for complex relationship analysis  
-
-### 🏢 Publicis Sapient (Sep 2021 – Mar 2023)
-- Built fintech systems for fund & investment management  
-- Worked as contractor supporting Wellington  
-- Developed backend services using Java, Python, AWS  
-
-### 🏢 Confluxsys (Jun 2017 – Sep 2021)
-- Led backend for Identity & Access Management systems  
-- Built GraphQL aggregation services across multiple databases  
-- Designed microservices and workflow-driven systems  
+- Contributing to a **graph-based platform** for analyzing application dependencies and security patterns at scale  
+- Designing backend services integrating **Stardog, Snowflake, and PostgreSQL**  
+- Building **data aggregation pipelines** for complex relationship analysis  
+- Improving performance of data access layers through **query optimization and efficient data modeling**  
+- Participating in architecture discussions and contributing to **system design decisions**  
 
 ---
-## Architecture Dsign 
-```
-Client
-  ↓
-GraphQL API
-  ↓
-Resolver Layer
-  ↓
--------------------------------
-| Neo4j | PostgreSQL | Oracle |
--------------------------------
-  ↓
-Aggregation Layer
-  ↓
-Unified Response
-```
+
+### 🏢 Publicis Sapient (Sep 2021 – Mar 2023)
+- Developed backend systems for **high-volume fintech platforms** managing funds and investment workflows  
+- Built services using **Java, Python, and AWS** for scalable data processing  
+- Integrated **MySQL, Oracle, and DynamoDB** for reliable multi-source data handling  
+- Delivered reporting and audit solutions aligned with **business and compliance requirements**  
+
+---
+
+### 🏢 Confluxsys (Jun 2017 – Sep 2021)
+- Led backend development for **Identity & Access Management (IAM) and governance systems**  
+- Designed **GraphQL-based aggregation services** across Neo4j, PostgreSQL, Oracle, and Cassandra  
+- Built **microservices and workflow-driven systems** for access control and approvals  
+- Implemented **scheduler-based processing (Quartz)** and **event-driven communication (ActiveMQ)**  
+- Mentored developers and contributed to **architecture and design decisions**  
+
 ---
 
 ## 🧩 System Design Experience
 
 ### 🔹 GraphQL Data Aggregation Platform
 
-Designed a backend service that aggregates data from multiple heterogeneous data sources (Neo4j, PostgreSQL, Oracle, Cassandra) into a unified GraphQL API.
+Designed a backend system to aggregate data from multiple heterogeneous data sources into a unified GraphQL API.
 
-**Key Highlights:**
-- Unified abstraction layer for multi-database querying  
-- Reduced client-side complexity  
-- Designed resolver strategies to minimize N+1 query problems and improve performance  
+**Key Contributions:**
+- Designed a **multi-database abstraction layer** for seamless querying across systems  
+- Implemented **resolver strategies with batching** to mitigate N+1 query problems  
+- Optimized query execution for **high-volume and relationship-heavy data**  
+- Reduced client complexity by centralizing data fetching logic  
 
 ---
 
 ### 🔹 Identity & Access Governance System
 
-Worked on backend systems for managing identity access, approvals, and governance workflows.
+Built backend systems for managing identity access, approvals, and governance workflows.
 
-**Key Highlights:**
-- Built REST APIs and workflow-driven systems  
-- Implemented scheduler-based processing (Quartz)  
-- Designed event-driven communication using ActiveMQ  
+**Key Contributions:**
+- Designed **REST APIs and workflow-driven approval systems**  
+- Implemented **scheduler-based processing using Quartz** for periodic tasks  
+- Built **event-driven communication using ActiveMQ**  
+- Integrated IAM systems with governance workflows for **real-time access control**  
 
 ---
 
-## 🔬 Deep Dive: Multi-Database Aggregation
+## 🏗️ Architecture Snapshot (GraphQL Aggregation System)
+```
+Client  
+  ↓  
+GraphQL API  
+  ↓  
+Resolver Layer (Batching + Optimization)  
+  ↓  
+----------------------------------------  
+| Neo4j | PostgreSQL | Oracle | Cassandra |  
+----------------------------------------  
+  ↓  
+Aggregation Layer  
+  ↓  
+Unified Response  
+```
+---
+
+## 🔬 Deep Dive: Multi-Database Aggregation Challenge
 
 ### Problem:
-- Data distributed across Graph + Relational DBs  
-- Multiple API calls required  
-- Increased latency and complexity  
+- Data distributed across **graph and relational databases**  
+- Multiple API calls required from clients  
+- High latency and fragmented data access  
 
 ### Solution:
-- Introduced GraphQL-based aggregation layer  
-- Centralized data fetching logic  
-- Optimized resolver execution  
+- Designed a **GraphQL-based aggregation layer**  
+- Centralized and optimized data fetching logic  
+- Applied resolver-level optimizations to improve performance  
 
-### Result:
-- Simplified client interaction  
-- Reduced redundant calls  
-- Improved maintainability  
+### Impact:
+- Reduced redundant data calls and improved response efficiency  
+- Simplified client interaction with backend systems  
+- Improved maintainability of multi-source data workflows  
 
 ---
 
@@ -135,16 +145,16 @@ Worked on backend systems for managing identity access, approvals, and governanc
 ## 📌 Notable Work
 
 ### 🔹 VSCode Google Search Extension
-- Search directly from editor using shortcuts  
+- Enables quick search directly from editor using keyboard shortcuts  
 - Built using TypeScript  
 
 ### 🔹 Mini Sidenav (Angular)
-- UI component with 50+ stars  
-- Based on Angular Material  
+- Angular Material-based UI component with 50+ stars  
+- Designed for reusable and modular UI integration  
 
 ### 🔹 CAZRI Inventory System
-- Built during ISRO collaboration  
-- PHP + MySQL based system  
+- Developed during ISRO collaboration  
+- Backend system using PHP and MySQL  
 
 ---
 
@@ -162,8 +172,3 @@ Worked on backend systems for managing identity access, approvals, and governanc
 - Email: ravirajpurohit29@gmail.com  
 
 ---
-## 🎯 What I'm Looking For
-
-- Backend / Platform Engineering roles  
-- Systems involving data, graphs, and distributed architectures  
-- Opportunities to build scalable and impactful systems  
